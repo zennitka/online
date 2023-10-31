@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="logo.jpeg"/>
+</head>
+<body>
+<div class="menu-btn">&#9776;Menu</div>
+<nav class="side-menu">
+    <ul>
+        <li><a href="#" onclick="reloud1()">🏠|Main</a></li>
+        <li><a href="#">🔐|login</a></li>
+        <li><a href="#" onclick="inf1()">🛈|information</a></li>
+        <li><a href="https://outlook.office.com/mail/?actSwt=true">📞|Contacts</a></li>
+    </ul>
+</nav>
+<div class="container">
+    <div class="screen">
+        <div class="screen__content">
+            <form class="login">
+                <div class="login__field">
+                    <i class="login__icon fas fa-user"></i>
+                    <form method="post" action="./chek">
+                    <input type="text" class="login__input" placeholder="User name / Email">
+                    </form>
+                </div>
+                <div class="login__field">
+                    <i class="login__icon fas fa-lock"></i>
+                    <form method="post" action="./chek">
+                    <input type="password" class="login__input" placeholder="Password">
+                    </form>
+                </div>
+                <button class="button login__submit">
+                    <span class="button__text">register In Now</span>
+                    <i class="button__icon fas fa-chevron-right"></i>
+                </button>
+            </form>
+            <div class="social-login">
+
+                <div class="social-icons">
+                    <a href="#" class="social-login__icon fab fa-instagram"></a>
+                    <a href="#" class="social-login__icon fab fa-facebook"></a>
+                    <a href="#" class="social-login__icon fab fa-twitter"></a>
+                </div>
+            </div>
+        </div>
+        <div class="screen__background">
+            <span class="screen__background__shape screen__background__shape4"></span>
+            <span class="screen__background__shape screen__background__shape3"></span>
+            <span class="screen__background__shape screen__background__shape2"></span>
+            <span class="screen__background__shape screen__background__shape1"></span>
+        </div>
+    </div>
+</div></body>
+<script src="srcript.js"></script>
+<script src="server.js"></script>
+</html>
